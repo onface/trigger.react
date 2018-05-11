@@ -4,7 +4,9 @@ class Basic extends React.Component {
     render () {
         return (
             <div className="basicDemo" >
-                <Trigger>default</Trigger>
+                <Trigger>
+                    <button>click   </button>
+                </Trigger>
             </div>
         )
     }
