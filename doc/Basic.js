@@ -12,7 +12,7 @@ class Basic extends React.Component {
                                 <button>button</button>
                                 <br />
                                 <button onClick={() => {
-                                    self.hide()
+                                    self.$emit('HIDE')
                                 }} >hide</button>
                             </div>
                         </div>
@@ -31,7 +31,7 @@ class Basic extends React.Component {
                                 <button>button</button>
                                 <br />
                                 <button onClick={() => {
-                                    self.hide()
+                                    self.$emit('HIDE')
                                 }} >hide</button>
                             </div>
                         </div>
