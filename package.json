@@ -18,10 +18,11 @@
     "$username": "onface",
     "$repository": "trigger.react",
     "dependencies": {
-        "position.react": "^0.1.0",
+        "position.react": "^0.1.4",
         "prop-types": "^15.6.0",
         "react-defaultvalue": "^0.1.0",
-        "util.react": "^1.4.1"
+        "react-spread-props": "^0.1.0",
+        "util.react": "^1.6.0"
     },
     "devDependencies": {
         "babel": "^6.23.0",
